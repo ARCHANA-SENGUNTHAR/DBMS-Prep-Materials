@@ -27,3 +27,10 @@ SELECT * FROM table_name;
 SELECT * FROM table_name WHERE condition;
 SELECT col1,col2 FROM table_name;
 SELECT col1, col2 FROM table_name WHERE condition;
+
+--AGREGATE FUNCTIONS
+SELECT COUNT(*) FROM table_name;
+SELECT COUNT(any_column_name) FROM table_name;
+
+SELECT SUM(*) FROM table_name;
+SELECT SUM(any_column_name) FROM table_name;
